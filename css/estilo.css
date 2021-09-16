@@ -1,0 +1,209 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    width: auto;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-top: -20px;
+}
+div#interface{
+    width: 1050px;
+    margin: auto;
+}
+
+img#lupa{
+    width: 32px;
+    height: 26px;
+    margin-top: 6px;
+    margin-left: 215px;
+}
+span#dica{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 20px;
+    text-align: justify;
+}
+    p#info {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        padding-left: 50px;
+    }
+    p.space {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 70px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+/* cabeçalho */
+header#cabecalho{
+    background: #22A0A0;
+    height: 158px;
+}
+    header#cabecalho img#logo {
+        float: left;
+        width: 102px;
+        height: 76px;
+        margin-top: 41px;
+        margin-left: 105px;
+    }
+    header#cabecalho span#search{
+        float: left;
+        background-color: #ffffff;
+        width: 250px;
+        height: 38px;
+        margin-top: 79px;
+        margin-left: 180px;
+        border-radius: 10px;
+        margin-right: 60px;
+    }
+    /*Menu*/
+nav#menu ul {
+     list-style: none;
+}
+        nav#menu li {
+            display: inline-block;
+            margin-top: 84px;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 6px;
+        }
+    
+        nav#menu li a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        nav#menu li:hover{
+            text-decoration: none;
+            border-bottom: 3px solid #ffffff;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+/*Corpo*/
+
+div#corpo{
+    width: 57%;
+    float: left;
+    border-right: 1px solid #22A0A0;
+}
+div#corpo h1{
+    text-align: left;
+    margin-left: 8%;
+}
+ div#corpo p{
+    text-align: left;
+    margin-left: 8%;
+}
+div#corpo a{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    float: right;
+    margin-right: 50%;
+    color: black;
+    padding-bottom: 20px;
+}
+div#lateral{
+    width: 40%;
+    float: left;
+    margin-top: 1.2%;
+}
+    div#lateral a{
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        float: right;
+            color: black;
+        padding-bottom: 20px;
+    }
+
+    div#lateral h1{
+        width: 280px;
+        margin-left: 12%;
+        text-align: left;
+    }
+    div#lateral p{
+        width: 280px;
+        margin-left: 8%;
+        text-align: left;
+    }
+    div#lateral img{
+        margin-left: -17%;
+        margin-bottom: -11px;
+    }
+.clearFix{
+    clear: both;
+}
+
+    article img{
+        border-radius: 10px;
+    }
+    article.esq{
+        float: left;
+        width: 42%;
+        margin-left: 10%;
+        min-width: 200px;
+    }
+    
+    article.dir{
+        float: left;
+        width: 42%;
+        margin-left: 2%;
+    }
+div#centro img{
+    float: left;
+    margin-left: 13%;
+}
+    div#centro h1{
+        width: 476px;
+        margin-left: 17%;
+        text-align: left;
+    }
+    div#centro p{
+        width: 450px;
+        margin-left: 16%;
+        text-align: justify;
+    }
+   /*Rodape*/
+footer#rodape{
+    background: #22A0A0;
+    height: 115px;
+    padding-top: 40px;
+}
+    footer#rodape p{
+        margin: 0px;
+        color: #ffffff;
+    }
+
+    footer#rodape img{
+        width: 102px;
+        height: 76px;
+    }
+        
+        div#logob{
+            position: absolute;
+             float: right;
+             width: 102px;
+             height: 76px;
+             margin-top: -70px;
+             margin-left: 60%;
+        } 
