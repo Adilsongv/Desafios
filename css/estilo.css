@@ -242,7 +242,9 @@ footer#rodape{
             width: 30%;
             text-align: right;
             margin-left: 150px;
-            margin-top: 70px;
+            margin-top: 80px;
+            text-decoration: none;
+            color: black;
         }
 
         .desdir{
@@ -279,6 +281,8 @@ footer#rodape{
             text-align: left;
             margin-left: 80px;
             padding-top: 30px;
+            text-decoration: none;
+            color: black;
         }
         .mocesq{
             float: left;
