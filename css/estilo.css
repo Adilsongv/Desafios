@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body{
     font-family: 'Dosis', sans-serif;
@@ -33,7 +33,7 @@ span#dica{
 p{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    margin: 20px;
+    margin: 10px;
     text-align: justify;
 }
     p#info {
@@ -207,3 +207,155 @@ footer#rodape{
              margin-top: -70px;
              margin-left: 60%;
         } 
+
+        .descesq{
+            background-color: #DDF2F2;
+            padding: 26px;
+            height: 216px;
+        }
+        .descesq img{
+            float: left;
+            width: 50%;
+            width: 477px;
+            height: 212px;
+            margin-left: 80px;
+        }
+        
+        .descesq p{
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            float: left;
+            width: 30%;
+            padding: 26px;
+            height: 60px;
+            width: 250px;
+            margin: 10px;
+            text-align: center;
+            margin-left: 60px;
+            margin-top: 25px;
+        }
+        .descesq a{
+            font-family: 'Dosis', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            width: 30%;
+            text-align: right;
+            margin-left: 150px;
+            margin-top: 70px;
+        }
+
+        .desdir{
+            background-color: #FFFFFF;
+            padding: 26px;
+            height: 216px;
+        }
+        .desdir img{
+            float: right;
+            width: 50%;
+            width: 477px;
+            height: 212px;
+            margin-right: 100px;
+        }
+        .desdir p{
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            float: left;
+            width: 32%;
+            /* padding: 26px; */
+            height: 70px;
+            width: 280px;
+            text-align: center;
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+        .desdir a{
+            font-family: 'Dosis', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            float: left;
+            width: 30%;
+            text-align: left;
+            margin-left: 80px;
+            padding-top: 30px;
+        }
+        .mocesq{
+            float: left;
+            width: 210px;
+            padding: 1px;
+            margin-left: 115px;
+            margin-bottom: 36px;
+        }
+        .mocesq h3{
+            float: left;
+            font-family: 'Dosis', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            margin-left: 10px;
+        }
+        
+        figure.legenda img{
+            margin-left: -25px;
+        }
+        figure.legenda figcaption{
+            position: absolute;
+            color: #ffffff;
+            top: 105%;
+            left: 30%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+        }
+        input#recname{
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            border-radius: 10px;
+            border: 1px solid #22A0A0;
+            width: 209px;
+            height: 41px;
+            background-color: #DAF5F5;
+            margin-left: 0px;
+            margin-bottom: 13px;
+            color: #696363;
+        }
+        input#recimg{
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            border-radius: 10px;
+            border: 1px solid #70A3A3;
+            width: 208px;
+            height: 31px;
+            background-color: #70A3A3;
+            margin-left: 220px ;
+            margin-bottom: 13px;
+            color: #ffffff;
+        }
+        textarea#recarea{
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            border-radius: 10px;
+            border: 1px solid #22A0A0;
+            width: 644px;
+            height: 152px;
+            background-color: #DAF5F5;
+            margin-bottom: 13px;
+            color: #696363;
+        }
+        input#recenv{
+            font-family: 'Dosis', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            border-radius: 10px;
+            border: 1px solid #155050;
+            width: 208px;
+            height: 52px;
+            background-color: #155050;
+            margin-right: -450px;
+            margin-bottom: 100px;
+        }
+       
